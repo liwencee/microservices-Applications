@@ -1,2 +1,2 @@
-# region = "us-east-1"
-# cluster_name = "prod-eks"
+region = "us-east-1"
+cluster_name = "prod-eks"

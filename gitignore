@@ -1,0 +1,43 @@
+# Node
+node_modules/
+npm-debug.log
+.env
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Docker
+*.tar
+
+# OS
+.DS_Store
+
+
+
+Exclude tfvars files which may contain sensitive data
+*.tfvars
+*.tfvars.json
+# Override tfvars files, used in automation
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# Terraform plan files
+*.tfplan
+# Terraform variable definition files
+terraform.tfvars
+terraform.tfvars.json
+# .terraformrc files
+.terraformrc
+terraform.rc
+# Ignore any backup files created by Terraform
+*.backup
+# Ignore temporary files created by editors and OS
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
