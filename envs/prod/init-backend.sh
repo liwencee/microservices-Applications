@@ -16,7 +16,7 @@ if [ -z "$BUCKET" ] || [ -z "$TABLE" ]; then
   exit 1
 fi
 
-REGION=${REGION:-us-east-1}
+REGION=${REGION:-us-west-1}
 
 terraform init \
   -backend-config="bucket=${BUCKET}" \

@@ -1,15 +1,15 @@
 variable "region" {
   type    = string
-  default = "us-east-1"
+  default = "us-west-1"
 }
 
 variable "s3_bucket_name" {
   type        = string
   description = "Name for the S3 bucket to hold Terraform state. Must be globally unique."
-  default     = "tf-state-eks-unique-12345" # replace with your unique name
+  default     = "lekandevops-tfstate-prod-20250814" 
 }
 
 variable "dynamodb_table_name" {
   type    = string
-  default = "tf-state-lock-table"
+  default = "lekandevops-tfstate-prod-20250814" 
 }
