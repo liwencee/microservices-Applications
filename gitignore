@@ -1,4 +1,3 @@
-
 # Node
 node_modules/
 npm-debug.log
@@ -16,8 +15,7 @@ npm-debug.log
 # OS
 .DS_Store
 
-
-Exclude tfvars files which may contain sensitive data
+# Exclude tfvars files which may contain sensitive data
 *.tfvars
 *.tfvars.json
 # Override tfvars files, used in automation
@@ -32,12 +30,11 @@ terraform.tfvars
 terraform.tfvars.json
 # .terraformrc files
 .terraformrc
-terraform.rc
+.terraform.rc
 # Ignore any backup files created by Terraform
 *.backup
 # Ignore temporary files created by editors and OS
 *~
-*.swp
 *.swp
 *.swo
 Thumbs.db
