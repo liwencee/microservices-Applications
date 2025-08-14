@@ -8,6 +8,7 @@ npm-debug.log
 *.tfstate.*
 .terraform/
 .terraform.lock.hcl
+.terraform.tfstate.backup
 
 # Docker
 *.tar
