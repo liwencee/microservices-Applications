@@ -1,3 +1,4 @@
+
 # Node
 node_modules/
 npm-debug.log
@@ -14,7 +15,6 @@ npm-debug.log
 
 # OS
 .DS_Store
-
 
 
 Exclude tfvars files which may contain sensitive data
@@ -38,6 +38,6 @@ terraform.rc
 # Ignore temporary files created by editors and OS
 *~
 *.swp
+*.swp
 *.swo
-.DS_Store
 Thumbs.db
