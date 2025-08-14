@@ -7,8 +7,8 @@ npm-debug.log
 *.tfstate
 *.tfstate.*
 .terraform/
-.terraform.lock.hcl
-.terraform.tfstate.backup
+*.terraform.lock.hcl
+*.terraform.tfstate.backup
 
 # Docker
 *.tar
@@ -28,7 +28,7 @@ override.tf.json
 *.tfplan
 # Terraform variable definition files
 terraform.tfvars
-terraform.tfvars.json
+*.terraform.tfvars.json
 # .terraformrc files
 .terraformrc
 .terraform.rc
