@@ -30,7 +30,17 @@ cd ../envs/prod
 ./init-backend.sh -b lekandevops-tfstate-prod-20250814 -t lekandevops-tfstate-prod-20250814 -r us-west-1
 
 
+Or:
 
+
+terraform init
+-backend-config="bucket=<bucket>"
+-backend-config="key=envs/prod/terraform.tfstate"
+-backend-config="region=us-west-1"
+-backend-config="dynamodb_table=<table>"
+
+
+4. Apply the prod environment:
 
 
 terraform apply -var="cluster_name=prod-eks" -var="region=us-west-1"
